@@ -1,0 +1,39 @@
+.notBlurBlock {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  z-index: 4;
+  right: -80px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  .gifText {
+    width: 150px;
+    height: 90px;
+    position: relative;
+    font-size: 100%;
+
+    p {
+      text-align: center;
+      margin-top: 5%;
+      color: #d6b5ed;
+      font-size: 55px;
+      font-weight: 500;
+    }
+
+    .gifMiniText {
+      width: 70%;
+      position: absolute;
+      height: 60%;
+      top: 51%;
+      right: 39px;
+      font-weight: 600;
+      font-size: 28px;
+      color: #7421B0;
+    }
+  }
+}

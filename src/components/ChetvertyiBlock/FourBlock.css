@@ -1,0 +1,55 @@
+.FourBlock {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  .TwoImg{
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      top: 35px;
+      left: 0;
+      z-index: -1;
+    }
+  .bloks {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    .boxCard{
+    position: absolute;
+    top:-130px;
+    right:-50px;
+    width: 400px;
+    height: 250px;
+    }
+  }
+  .boxSizing{
+    position: relative;
+    .BoxImgOne{
+      width: 80%;
+      height: 400px;
+      position: absolute;
+      top: 50px;
+      left: 126px;
+    }
+    .svgBox{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top:-90px;
+      right: 280px;
+      z-index: 0;
+      img{
+        width: 205px;
+        height: 205px;
+      }
+    }
+    .BlurCard{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top:75px;
+      left: 300px;
+    }
+  }
+}

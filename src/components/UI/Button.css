@@ -1,0 +1,32 @@
+button{
+  padding: 23px 41px;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-style: italic;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  &:active{
+    transform: scale(0.95);
+  }
+}
+.blue-btn{
+  background-color: blueviolet;
+}
+.black-btn{
+  background-color: black;
+}
+.blur-btn{
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+
+}
+.btn_contaner{
+  position: absolute;
+  bottom: 140px;
+  left: 310px;
+  z-index: 3;
+}

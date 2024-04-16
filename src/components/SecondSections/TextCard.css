@@ -1,0 +1,26 @@
+.textBlock {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  right: 100px;
+  top: 259px;
+  border-radius: 8px;
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .fisrtText {
+    line-height: 25px;
+    color: gray;
+  }
+
+  .secondText {
+    line-height: 25px;
+    color: gray;
+    margin-top: 10px;
+
+    span {
+      color: #7421B0;
+    }
+  }
+}

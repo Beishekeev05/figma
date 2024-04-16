@@ -1,0 +1,43 @@
+.width {
+  width: 100%;
+  min-height: 700px;
+  position: relative;
+  margin-top: 90px;
+
+  .LinearLine {
+    width: 97.8%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+  }
+}
+
+/*  */
+.ponchick {
+  width: 300px;
+  height: 300px;
+  position: relative;
+
+  .ponchikImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+/*  */
+.blurBlock {
+  width: 550px;
+  height: 350px;
+  backdrop-filter: blur(20px);
+  position: relative;
+  z-index: 2;
+  top: -90px;
+  border-radius: 0 50px 50px 0;
+}
+
+/*  */

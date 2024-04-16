@@ -1,0 +1,13 @@
+.divBlock {
+  width: 1250px;
+  height: 240px;
+  margin-top: 20px;
+  position: relative;
+
+  img {
+    width: 100%;
+    top: -220%;
+    left: 20px;
+    z-index: 1;
+  }
+}
